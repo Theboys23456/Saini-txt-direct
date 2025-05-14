@@ -68,12 +68,12 @@ async def show_random_emojis(message):
     return emoji_message
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 DM", url="https://t.me/Strangerboy27_bot_strangerboy")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+aBB53vou0Z5hZWI1"),
+            InlineKeyboardButton(text="📞 DM", url="https://t.me/Strangerboy27_bot_strangerboy"),
+            InlineKeyboardButton(text="🛠️ GROUP", url="https://t.me/+aBB53vou0Z5hZWI1"),
         ],
     ]
 )
@@ -351,7 +351,7 @@ async def restart_handler(_, m):
 async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
-        "𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 🤷‍♂️ 『 WELCOME STRANGER 』🙋"
+        "𝐇𝐞𝐥𝐥𝐨 [समय यात्री](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg)🎉!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 [🤷‍♂️ 『 WELCOME STRANGER 』🙋](https://i.ibb.co/jvQfvnCs/photo-2025-04-12-18-46-58-7492500195091939332.jpg)"
     )
     await bot.send_photo(
         chat_id=message.chat.id,
@@ -388,39 +388,39 @@ async def info(bot: Client, update: Message):
 @bot.on_message(filters.command(["help"]))
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
-        f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
+        f"ꞏ┅᪵┅᪵┅᪵⸻समय यात्री⸻┅᪵┅᪵┅᪵ꞏ\n"
         f"『 WELCOME STRANGER 』🙋..\n"
-        f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
+        f"ꞏ⸻┅᪵┅᪵┅᪵स्ट्रेंजर┅᪵┅᪵┅᪵⸻ꞏ\n"
+        f"❖───────── [『 THE BOYS 』](https://envs.sh/49r.mp4) ────────❖\n" 
         f"📌 𝗠𝗮𝗶𝗻 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀:\n\n"  
         f"➥ /start – Bot Status Check\n"
         f"➥ /drm – Extract from .txt (Auto)\n"
         f"➥ /y2t – YouTube → .txt Converter\n"  
         f"➥ /t2t – Text → .txt Generator\n" 
         f"➥ /stop – Cancel Running Task\n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n" 
+        f"❖───────────[『 स्ट्रेंजर 』](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg)───────────❖\n" 
         f"⚙️ 𝗧𝗼𝗼𝗹𝘀 & 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀: \n\n" 
         f"➥ /cookies – Update YT Cookies\n" 
         f"➥ /id – Get Chat/User ID\n"  
         f"➥ /info – User Details\n"  
         f"➥ /logs – View Bot Activity\n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
+        f"ꞏ┅᪵┅᪵┅᪵⸻THE BOYS ⸻┅᪵┅᪵┅᪵ꞏ\n"
         f"👤 𝐔𝐬𝐞𝐫 𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧: **(OWNER)**\n\n" 
         f"➥ /addauth xxxx – Add User ID\n" 
         f"➥ /remauth xxxx – Remove User ID\n"  
         f"➥ /users – Total User List\n"  
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
+        f"ꞏ⸻┅᪵┅᪵┅᪵स्ट्रेंजर┅᪵┅᪵┅᪵⸻ꞏ\n"
         f"📁 𝐂𝐡𝐚𝐧𝐧𝐞𝐥𝐬: **(Auth Users)**\n\n" 
         f"➥ /addchnl -100xxxx – Add\n" 
         f"➥ /remchnl -100xxxx – Remove\n"  
         f"➥ /channels – List - (OWNER)\n"  
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
+        f"ꞏ┅᪵┅᪵┅᪵⸻समय यात्री⸻┅᪵┅᪵┅᪵ꞏ\n"
         f"💡 𝗡𝗼𝘁𝗲:\n\n"  
         f"• Send any link for auto-extraction\n"  
         f"• Supports batch processing\n\n"  
-        f"╭~\\\\\\\\\\\\\\\\\\\\\\~╮\n"   
+        f"❖────────[『 WELCOME STRANGER 』](https://i.ibb.co/0p3pmkwn/Angel.jpg)─────────❖\n"   
         f" 🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 🤷‍♂️ [『 WELCOME STRANGER 』🙋](https://i.ibb.co/Swd0WDW9/photo-2025-05-09-20-09-39-7502540716233457668.jpg) 💻\n"
-        f"╰\\\\\\\\\\\\\\\\\\\\\\\─╯\n"
+        f"❖──────────── [『 THE BOYS 』](https://envs.sh/49r.mp4) ───────────❖\\n"
         )
     )                    
           
@@ -518,7 +518,7 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == '1':
-        CR = '[STRANGER BOY](https://i.ibb.co/Swd0WDW9/photo-2025-05-09-20-09-39-7502540716233457668.jpg)'
+        CR = '[STRANGER BOY]'
     else:
         CR = raw_text3
 
@@ -541,7 +541,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         thumb = raw_text6
     await editable.delete()
-    await m.reply_text(f"__**🎀Target Batch समय यात्री: {b_name}**__")
+    await m.reply_text(f"__**[⚡️STRANGER BOY⚡️](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg) 🎀 Target Batch समय यात्री✨️ ➤ {b_name}**__")
 
     failed_count = 0
     count =int(raw_text)    
